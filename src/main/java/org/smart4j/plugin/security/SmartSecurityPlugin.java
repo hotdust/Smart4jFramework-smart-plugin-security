@@ -9,6 +9,9 @@ import javax.servlet.ServletException;
 import java.util.Set;
 
 /**
+ * 这段代码的作用是，省略了在 web.xml 配置。
+ * ServletContainerInitializer 接口的作用是，web 组件在启动时，可以使用使用这个接口，
+ * 来对组件做一些初始化操作
  * Created by shijiapeng on 16/12/24.
  */
 public class SmartSecurityPlugin implements ServletContainerInitializer {
